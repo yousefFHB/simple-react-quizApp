@@ -123,14 +123,6 @@ npm run build
 - `getRandomQuestions` shuffles and slices questions for each run
 - Timer auto-completes quiz when it reaches `00:00`
 
-## Future Improvements
-
-- Persist auth and quiz progress in localStorage
-- Add protected routes with redirect guards
-- Add category/difficulty filters
-- Add unit tests for reducers and quiz flow
-- Fix case-sensitive import paths for Linux/macOS environments
-
 ## License
 
 This project is for learning and portfolio use.
