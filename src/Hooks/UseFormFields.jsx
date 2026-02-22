@@ -1,0 +1,12 @@
+import { fieldset } from 'framer-motion/client';
+import React, { useState } from 'react'
+
+export default function UseFormFields(initialFields={}) {
+    const [fields,setFields]=useState(initialFields)
+    const handleChange=(e)=>{
+        const {target}=e;
+        setFields({...fields,[target.name]:target.value})
+    } 
+
+  return [fields,handleChange,setFields]
+}
